@@ -8,46 +8,22 @@ import { cls } from "@/lib/utils";
 
 const items = [
   {
-    title: "Sculpt Leggings",
-    description: "完美修身剪裁，透氣面料。",
+    title: "Sculpt Shorts",
+    description: "修身高腰針織短褲",
     href: "#",
-    imageSrc: "http://img.b2bpic.net/free-photo/sports-equipment-isolated-grey-surface_176420-11911.jpg"
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3HmmMlkqmPckqE8TM4WrSdIDbEH/uploaded-1786486921282-w81p5pt8.png"
   },
   {
-    title: "Pilates Bodysuit",
-    description: "極簡線條，優雅運動感。",
+    title: "Classic Crew Top",
+    description: "經典圓領修飾肩頸長袖",
     href: "#",
-    imageSrc: "http://img.b2bpic.net/free-photo/woman-sport-clothing-studio_23-2149374693.jpg"
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3HmmMlkqmPckqE8TM4WrSdIDbEH/uploaded-1786486921283-f45m0e99.png"
   },
   {
-    title: "Everyday Bra",
-    description: "低支撐日常內衣。",
+    title: "Quarter-Zip Pullover",
+    description: "復古華夫格半拉鏈上衣",
     href: "#",
-    imageSrc: "http://img.b2bpic.net/free-photo/high-angle-woman-lying-back_23-2148498692.jpg"
-  },
-  {
-    title: "City Shorts",
-    description: "都市輕運動版型。",
-    href: "#",
-    imageSrc: "http://img.b2bpic.net/free-photo/warming-up_23-2148023742.jpg"
-  },
-  {
-    title: "Seamless Top",
-    description: "親膚舒適面料。",
-    href: "#",
-    imageSrc: "http://img.b2bpic.net/free-photo/fitness-sporty-girl-with-black-skin-afro-hairstyle-has-jogging-outdoor-wears-sportswear-smiles-looks-away-poses-white-wall-with-copy-space-your-sport-advertising-people-jogging_273609-29682.jpg"
-  },
-  {
-    title: "Ribbed Set",
-    description: "針織質感套裝。",
-    href: "#",
-    imageSrc: "http://img.b2bpic.net/free-photo/beautiful-model-with-perfect-tanned-body-female-putting-hood_158538-3534.jpg"
-  },
-  {
-    title: "Active Jacket",
-    description: "防風都市外套。",
-    href: "#",
-    imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-african-american-woman-wearing-coat-posing-street_181624-28798.jpg"
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3HmmMlkqmPckqE8TM4WrSdIDbEH/uploaded-1786486921283-wnwuqt1q.png"
   }
 ];
 
@@ -70,19 +46,11 @@ interface FeaturesRevealCardsBentoProps {
 const NewArrivalsInline = () => {
   const gridClasses = [
     "md:col-span-2",
-    "md:col-span-4",
-    "md:col-span-3",
-    "md:col-span-3",
-    "md:col-span-2",
     "md:col-span-2",
     "md:col-span-2",
   ];
 
   const staggerDelays = [
-    0,
-    0.1,
-    0,
-    0.1,
     0,
     0.1,
     0.2,
