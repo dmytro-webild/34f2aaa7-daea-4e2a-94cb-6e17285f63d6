@@ -10,25 +10,18 @@ export default function HeroSection(): React.JSX.Element {
     <div id="hero" data-section="hero">
         <SectionErrorBoundary name="hero">
               <HeroBillboardCarousel
-          tag="ATHLEISURE BOUTIQUE"
-          title="MOVE WELL. LOOK EFFORTLESS."
-          description="从 Pilates 到城市日常，让舒服与好看，不必成为选择题。"
-          primaryButton={{
+        tag="ATHLEISURE BOUTIQUE"
+        title="MOVE WELL. LOOK EFFORTLESS."
+        description="从 Pilates 到城市日常，让舒服与好看，不必成为选择题。"
+        primaryButton={{
             text: "SHOP NEW ARRIVALS",
             href: "#new-arrivals"
           }}
-          secondaryButton={{
+        secondaryButton={{
             text: "OUR STORY",        href: "#about"}}
-          items={[
-            { imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-training-with-vr-glasses_23-2150405111.jpg" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/woman-doing-sport-home_23-2148547288.jpg" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/close-up-woman-with-skateboard_23-2148435996.jpg" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/decorative-items-cozy-interior-room-vase-with-dried-flowers-light-wooden-table_169016-4254.jpg" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/grapefruit-berries-near-shorts_23-2147750739.jpg" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/young-woman-exercising-stretching-outdoors_23-2149676929.jpg" },
-          ]}
-          textAnimation="fade-blur"
-        />
+        items={[{"imageSrc":"https://storage.googleapis.com/webild/users/user_3HmmMlkqmPckqE8TM4WrSdIDbEH/uploaded-1786484971916-v4nwm7e8.png"},{"imageSrc":"https://storage.googleapis.com/webild/users/user_3HmmMlkqmPckqE8TM4WrSdIDbEH/uploaded-1786484971917-g68oe6g5.png"},{"imageSrc":"https://storage.googleapis.com/webild/users/user_3HmmMlkqmPckqE8TM4WrSdIDbEH/uploaded-1786484971918-jre4hmkb.jpg"},{"imageSrc":"https://storage.googleapis.com/webild/users/user_3HmmMlkqmPckqE8TM4WrSdIDbEH/uploaded-1786484971918-5iyx7jlj.png"}]}
+        textAnimation="fade-blur"
+      />
         </SectionErrorBoundary>
       </div>
   );
