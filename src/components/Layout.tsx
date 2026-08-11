@@ -7,102 +7,87 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 
 export default function Layout() {
   const navItems = [
-  {
-    "name": "New Arrivals",
-    "href": "#new-arrivals"
-  },
-  {
-    "name": "Activity",
-    "href": "#activity"
-  },
-  {
-    "name": "Shop",
-    "href": "#best-sellers"
-  },
-  {
-    "name": "Hero",
-    "href": "#hero"
-  },
-  {
-    "name": "About",
-    "href": "#about"
-  },
-  {
-    "name": "Complete Look",
-    "href": "#complete-look"
-  },
-  {
-    "name": "Editorial",
-    "href": "#editorial"
-  }
-];
+    {
+      "name": "New Arrivals",
+      "href": "#new-arrivals"
+    },
+    {
+      "name": "Shop",
+      "href": "#best-sellers"
+    },
+    {
+      "name": "About",
+      "href": "#about"
+    }
+  ];
 
   return (
     <StyleProvider buttonVariant="bounce" siteBackground="noise" heroBackground="gradientBars">
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarInline
-      logo="LUXE MOVE"
-      ctaButton={{
-        text: "SHOP NOW",
-        href: "#new-arrivals",
-      }}
-     navItems={navItems} />
+          logo="LUXE MOVE"
+          ctaButton={{
+            text: "SHOP NOW",
+            href: "#new-arrivals",
+          }}
+          navItems={navItems}
+        />
       </SectionErrorBoundary>
       <main className="flex-grow">
         <Outlet />
       </main>
       <SectionErrorBoundary name="footer">
         <FooterSimple
-      brand="LUXE MOVE"
-      columns={[
-        {
-          title: "Shop",
-          items: [
+          brand="LUXE MOVE"
+          columns={[
             {
-              label: "All",
+              title: "Shop",
+              items: [
+                {
+                  label: "All",
+                  href: "#",
+                },
+                {
+                  label: "Pilates",
+                  href: "#",
+                },
+                {
+                  label: "Yoga",
+                  href: "#",
+                },
+              ],
+            },
+            {
+              title: "Support",
+              items: [
+                {
+                  label: "FAQ",
+                  href: "#",
+                },
+                {
+                  label: "Shipping",
+                  href: "#",
+                },
+                {
+                  label: "Returns",
+                  href: "#",
+                },
+              ],
+            },
+          ]}
+          copyright="© 2024 Luxe Move Taiwan. All rights reserved."
+          links={[
+            {
+              label: "Privacy Policy",
               href: "#",
             },
             {
-              label: "Pilates",
+              label: "Terms of Service",
               href: "#",
             },
-            {
-              label: "Yoga",
-              href: "#",
-            },
-          ],
-        },
-        {
-          title: "Support",
-          items: [
-            {
-              label: "FAQ",
-              href: "#",
-            },
-            {
-              label: "Shipping",
-              href: "#",
-            },
-            {
-              label: "Returns",
-              href: "#",
-            },
-          ],
-        },
-      ]}
-      copyright="© 2024 Luxe Move Taiwan. All rights reserved."
-      links={[
-        {
-          label: "Privacy Policy",
-          href: "#",
-        },
-        {
-          label: "Terms of Service",
-          href: "#",
-        },
-      ]}
-    />
+          ]}
+        />
       </SectionErrorBoundary>
     </StyleProvider>
   );
