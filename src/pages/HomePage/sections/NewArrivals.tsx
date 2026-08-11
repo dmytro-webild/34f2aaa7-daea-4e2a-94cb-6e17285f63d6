@@ -9,43 +9,43 @@ import { cls } from "@/lib/utils";
 const items = [
   {
     title: "Sculpt Leggings",
-    description: "完美修身剪裁，透气面料。",
+    description: "完美修身剪裁，透氣面料。",
     href: "#",
     imageSrc: "http://img.b2bpic.net/free-photo/sports-equipment-isolated-grey-surface_176420-11911.jpg"
   },
   {
     title: "Pilates Bodysuit",
-    description: "极简线条，优雅运动感。",
+    description: "極簡線條，優雅運動感。",
     href: "#",
     imageSrc: "http://img.b2bpic.net/free-photo/woman-sport-clothing-studio_23-2149374693.jpg"
   },
   {
     title: "Everyday Bra",
-    description: "低支撑日常内衣。",
+    description: "低支撐日常內衣。",
     href: "#",
     imageSrc: "http://img.b2bpic.net/free-photo/high-angle-woman-lying-back_23-2148498692.jpg"
   },
   {
     title: "City Shorts",
-    description: "都市轻运动版型。",
+    description: "都市輕運動版型。",
     href: "#",
     imageSrc: "http://img.b2bpic.net/free-photo/warming-up_23-2148023742.jpg"
   },
   {
     title: "Seamless Top",
-    description: "亲肤舒适面料。",
+    description: "親膚舒適面料。",
     href: "#",
     imageSrc: "http://img.b2bpic.net/free-photo/fitness-sporty-girl-with-black-skin-afro-hairstyle-has-jogging-outdoor-wears-sportswear-smiles-looks-away-poses-white-wall-with-copy-space-your-sport-advertising-people-jogging_273609-29682.jpg"
   },
   {
     title: "Ribbed Set",
-    description: "针织质感套装。",
+    description: "針織質感套裝。",
     href: "#",
     imageSrc: "http://img.b2bpic.net/free-photo/beautiful-model-with-perfect-tanned-body-female-putting-hood_158538-3534.jpg"
   },
   {
     title: "Active Jacket",
-    description: "防风都市外套。",
+    description: "防風都市外套。",
     href: "#",
     imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-african-american-woman-wearing-coat-posing-street_181624-28798.jpg"
   }
@@ -105,7 +105,7 @@ const NewArrivalsInline = () => {
           />
 
           <TextAnimation
-            text={"最新都市运动服饰，兼顾机能与美学。"}
+            text={"最新都市運動服飾，兼顧機能與美學。"}
             variant={"slide-up"}
             gradientText={false}
             tag="p"
