@@ -55,7 +55,7 @@ const EditorialInline = () => {
           </div>
 
           <TextAnimation
-            text={"身心好处 × 极致舒适"}
+            text={"用好的装备 才有好的开始"}
             variant={"slide-up"}
             gradientText={true}
             tag="h2"
