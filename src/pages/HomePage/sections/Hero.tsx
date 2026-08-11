@@ -12,7 +12,7 @@ export default function HeroSection(): React.JSX.Element {
               <HeroBillboardCarousel
         tag="ATHLEISURE BOUTIQUE"
         title="MOVE WELL. LOOK EFFORTLESS."
-        description="从 Pilates 到城市日常，让舒服与好看，不必成为选择题。"
+        description="From Pilates to urban everyday wear — where comfort meets effortless style."
         primaryButton={{
             text: "SHOP NEW ARRIVALS",
             href: "#new-arrivals"
