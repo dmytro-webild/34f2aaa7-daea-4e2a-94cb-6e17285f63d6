@@ -27,13 +27,13 @@ export default function HomePage() {
       }}
       items={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-training-with-vr-glasses_23-2150405111.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-training-with-vr-glasses_23-2150405111.jpg?_wi=1",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-doing-sport-home_23-2148547288.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-doing-sport-home_23-2148547288.jpg?_wi=1",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-woman-with-skateboard_23-2148435996.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-woman-with-skateboard_23-2148435996.jpg?_wi=1",
         },
         {
           imageSrc: "http://img.b2bpic.net/free-photo/decorative-items-cozy-interior-room-vase-with-dried-flowers-light-wooden-table_169016-4254.jpg",
@@ -127,7 +127,7 @@ export default function HomePage() {
               imageSrc: "http://img.b2bpic.net/free-photo/young-brunette-female-standing-having-break-smiling_7502-9765.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-training-with-vr-glasses_23-2150405111.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-training-with-vr-glasses_23-2150405111.jpg?_wi=2",
           imageAlt: "pilates studio movement",
         },
         {
@@ -145,7 +145,7 @@ export default function HomePage() {
               imageSrc: "http://img.b2bpic.net/free-photo/rolled-exercise-mat-bottle-water-parquet-floor_637285-5746.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-doing-sport-home_23-2148547288.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-doing-sport-home_23-2148547288.jpg?_wi=2",
           imageAlt: "pilates studio movement",
         },
         {
@@ -163,7 +163,7 @@ export default function HomePage() {
               imageSrc: "http://img.b2bpic.net/free-photo/young-adult-tokyo-streets_23-2149389172.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-woman-with-skateboard_23-2148435996.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-woman-with-skateboard_23-2148435996.jpg?_wi=2",
           imageAlt: "pilates studio movement",
         },
       ]}
