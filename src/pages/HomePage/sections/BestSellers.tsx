@@ -13,7 +13,7 @@ export default function BestSellersSection(): React.JSX.Element {
         tag="BEST SELLERS"
         title="Brand Favorites"
         description="都市女性最愛的熱銷常態單品。"
-        plans={[{"price":"NT$ 990","tag":"熱銷首選","features":["四向高彈面料","高腰包覆剪裁","透氣吸濕排汗"],"imageSrc":"https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=800&auto=format&fit=crop","period":" / 件","primaryButton":{"href":"#","text":"選購商品"}},{"price":"NT$ 1,290","period":" / 套","tag":"經典套裝","imageSrc":"https://images.unsplash.com/photo-1506152983158-b4a74a01c721?q=80&w=800&auto=format&fit=crop","primaryButton":{"text":"選購商品","href":"#"},"features":["零觸感親膚貼合","極簡休閒剪裁","百搭質感色系"]},{"tag":"新品推薦","price":"NT$ 790","features":["輕量無感支撐","高透氣親膚面料","永續環保材質"],"imageSrc":"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop","primaryButton":{"text":"選購商品","href":"#"},"period":" / 件"}]}
+        plans={[{"features":["四向高彈面料","高腰包覆剪裁","透氣吸濕排汗"],"imageSrc":"https://storage.googleapis.com/webild/users/user_3HmmMlkqmPckqE8TM4WrSdIDbEH/uploaded-1786489246002-ux7540he.png","tag":"熱銷首選","price":"NT$ 990","primaryButton":{"href":"#","text":"選購商品"},"period":" / 件"},{"period":" / 套","imageSrc":"https://storage.googleapis.com/webild/users/user_3HmmMlkqmPckqE8TM4WrSdIDbEH/uploaded-1786489246003-djlqkdun.png","tag":"經典套裝","features":["零觸感親膚貼合","極簡休閒剪裁","百搭質感色系"],"price":"NT$ 1,290","primaryButton":{"href":"#","text":"選購商品"}},{"tag":"新品推薦","price":"NT$ 790","imageSrc":"https://storage.googleapis.com/webild/users/user_3HmmMlkqmPckqE8TM4WrSdIDbEH/uploaded-1786489246003-phlk3b6d.png","features":["輕量無感支撐","高透氣親膚面料","永續環保材質"],"period":" / 件","primaryButton":{"text":"選購商品","href":"#"}}]}
         textAnimation="slide-up"
       />
         </SectionErrorBoundary>
