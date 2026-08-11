@@ -10,28 +10,12 @@ export default function BestSellersSection(): React.JSX.Element {
     <div id="best-sellers" data-section="best-sellers">
         <SectionErrorBoundary name="best-sellers">
               <PricingMediaCards
-          tag="BEST SELLERS"
-          title="Brand Favorites"
-          description="都市女性最爱的常态化单品。"
-          plans={[
-            {
-              tag: "Top Rated",          price: "NT$ 990",          period: "单品",          features: ["四向弹性面料", "高腰收腹剪裁", "速干吸湿"],
-              primaryButton: { text: "VIEW PRODUCT", href: "#" },
-              imageSrc: "http://img.b2bpic.net/free-photo/bed-linen-background-home-decor_53876-133367.jpg"
-            },
-            {
-              tag: "Essentials",          price: "NT$ 1,290",          period: "套装",          features: ["极简设计", "零触感贴合", "城市百搭色"],
-              primaryButton: { text: "VIEW PRODUCT", href: "#" },
-              imageSrc: "http://img.b2bpic.net/free-photo/workout-clothes-sports-ba-running_1303-1763.jpg"
-            },
-            {
-              tag: "New In",          price: "NT$ 790",          period: "单品",          features: ["轻盈透气", "支撑性强", "环保面料"],
-              primaryButton: { text: "VIEW PRODUCT", href: "#" },
-              imageSrc: "http://img.b2bpic.net/free-photo/still-life-composition-sport-elements_23-2149006303.jpg"
-            },
-          ]}
-          textAnimation="slide-up"
-        />
+        tag="BEST SELLERS"
+        title="Brand Favorites"
+        description="都市女性最愛的熱銷常態單品。"
+        plans={[{"price":"NT$ 990","tag":"熱銷首選","features":["四向高彈面料","高腰包覆剪裁","透氣吸濕排汗"],"imageSrc":"https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=800&auto=format&fit=crop","period":" / 件","primaryButton":{"href":"#","text":"選購商品"}},{"price":"NT$ 1,290","period":" / 套","tag":"經典套裝","imageSrc":"https://images.unsplash.com/photo-1506152983158-b4a74a01c721?q=80&w=800&auto=format&fit=crop","primaryButton":{"text":"選購商品","href":"#"},"features":["零觸感親膚貼合","極簡休閒剪裁","百搭質感色系"]},{"tag":"新品推薦","price":"NT$ 790","features":["輕量無感支撐","高透氣親膚面料","永續環保材質"],"imageSrc":"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop","primaryButton":{"text":"選購商品","href":"#"},"period":" / 件"}]}
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );
