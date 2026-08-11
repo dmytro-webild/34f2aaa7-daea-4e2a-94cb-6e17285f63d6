@@ -17,7 +17,7 @@ const items = [
     title: "Classic Crew Top",
     description: "經典圓領修飾肩頸長袖",
     href: "#",
-    imageSrc: "https://storage.googleapis.com/webild/users/user_3HmmMlkqmPckqE8TM4WrSdIDbEH/uploaded-1786486921283-f45m0e99.png"
+    imageSrc: "https://storage.googleapis.com/webild/users/user_3HmmMlkqmPckqE8TM4WrSdIDbEH/uploaded-1786488527808-d56aen6y.png"
   },
   {
     title: "Quarter-Zip Pullover",
